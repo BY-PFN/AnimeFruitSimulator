@@ -859,7 +859,7 @@ tgls3:Seperator()
 
 tgls3:Button("ZONE1", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.78556442260742, 8.99802303314209, -130.9253387451172)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-48.262176513671875, 8.998024940490723, -130.1291961669922)    
       
   
 end)
@@ -867,7 +867,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("ZONE2", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(37.39582824707031, 6.424800395965576, -6616.2900390625)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-300.875, 13.99802303314209, -139.75)    
       
   
 end)
@@ -883,7 +883,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("ZONE4", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-470.15972900390625, 13.99802303314209, -139.75)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-643.849853515625, 13.99802303314209, -139.75)    
       
   
 end)
@@ -891,7 +891,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("ZONE5", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-470.15972900390625, 13.99802303314209, -139.75)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-943.8048095703125, 11.8285493850708, -142.84011840820312)    
       
   
 end)
@@ -899,7 +899,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("ZONE6", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-470.15972900390625, 13.99802303314209, -139.75)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2189.125, 13.99802303314209, -139.75)    
       
   
 end)
@@ -907,7 +907,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("ZONE7", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-470.15972900390625, 13.99802303314209, -139.75)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2398.625, 14.008025169372559, -139.75)    
       
   
 end)
@@ -915,7 +915,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("ZONE8", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-470.15972900390625, 13.99802303314209, -139.75)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2608.125, 14.024022102355957, -139.75)    
       
   
 end)
@@ -923,7 +923,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("ZONE9", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-470.15972900390625, 13.99802303314209, -139.75)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2818.125, 13.99802303314209, -139.75)    
       
   
 end)
@@ -931,7 +931,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("ZONE10", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-470.15972900390625, 13.99802303314209, -139.75)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3027.875, 13.99802303314209, -139.75)    
       
   
 end)
@@ -947,7 +947,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("Word2", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(37.39582824707031, 6.424800395965576, -6616.2900390625)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(47.553287506103516, 6.424801349639893, -6611.669921875)    
       
   
 end)
@@ -955,7 +955,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("ZONE12", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(37.39582824707031, 6.424800395965576, -6616.2900390625)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-292.86920166015625, 6.424800395965576, -6734.72412109375)    
       
   
 end)
@@ -963,7 +963,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("ZONE13", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(37.39582824707031, 6.424800395965576, -6616.2900390625)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-633.264892578125, 6.424800395965576, -6497.91650390625)    
       
   
 end)
@@ -971,7 +971,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("ZONE14", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(37.39582824707031, 6.424800395965576, -6616.2900390625)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-972.72900390625, 6.424800395965576, -6496.00439453125)    
       
   
 end)
@@ -979,7 +979,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("ZONE15", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(37.39582824707031, 6.424800395965576, -6616.2900390625)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1312.516357421875, 6.298173427581787, -6729.02392578125)    
       
   
 end)
@@ -988,7 +988,7 @@ tgls3:Seperator()
 
 tgls3:Button("ZONE16", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(37.39582824707031, 6.424800395965576, -6616.2900390625)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1653.21337890625, 6.424801349639893, -6733.16015625)    
       
   
 end)

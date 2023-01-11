@@ -19,6 +19,7 @@ local serv = win:Server("PNonShopByPFN", "")
 local tgls = serv:Channel("AutoFarm")
 local tgls1 = serv:Channel("Egg")
 local tgls2 = serv:Channel("BOSS")
+local tgls3 = serv:Channel("TP")
 -----------------------------------------------------------------------------
 _G.Click = true
 tgls:Toggle("ClickAFK",true, function(bool)
@@ -125,6 +126,148 @@ game:GetService("ReplicatedStorage").Remotes.Validate:FireServer(unpack(args))
   end
 end)
 
+
+_G.UnlockZone = true
+tgls:Toggle("UnlockZone",true, function(bool)
+  _G.UnlockZone = bool
+end)
+spawn(function()
+  while wait(0.5) do
+    if _G.UnlockZone then
+      pcall(function() 
+          
+
+        local args = {
+          [1] = 1,
+          [2] = workspace.ZoneEntrances:FindFirstChild("1")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.UnlockZone:FireServer(unpack(args))
+        local args = {
+          [1] = 2,
+          [2] = workspace.ZoneEntrances:FindFirstChild("2")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.UnlockZone:FireServer(unpack(args))
+        local args = {
+          [1] = 3,
+          [2] = workspace.ZoneEntrances:FindFirstChild("3")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.UnlockZone:FireServer(unpack(args))
+       
+        local args = {
+          [1] = 4,
+          [2] = workspace.ZoneEntrances:FindFirstChild("4")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.UnlockZone:FireServer(unpack(args))
+
+
+        local args = {
+          [1] = 5,
+          [2] = workspace.ZoneEntrances:FindFirstChild("5")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.UnlockZone:FireServer(unpack(args))
+
+        local args = {
+          [1] = 6,
+          [2] = workspace.ZoneEntrances:FindFirstChild("6")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.UnlockZone:FireServer(unpack(args))
+
+        local args = {
+          [1] = 7,
+          [2] = workspace.ZoneEntrances:FindFirstChild("7")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.UnlockZone:FireServer(unpack(args))
+
+        local args = {
+          [1] = 8,
+          [2] = workspace.ZoneEntrances:FindFirstChild("8")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.UnlockZone:FireServer(unpack(args))
+
+        local args = {
+          [1] = 9,
+          [2] = workspace.ZoneEntrances:FindFirstChild("9")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.UnlockZone:FireServer(unpack(args))
+
+        local args = {
+          [1] = 10,
+          [2] = workspace.ZoneEntrances:FindFirstChild("10")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.UnlockZone:FireServer(unpack(args))
+
+        local args = {
+          [1] = 11,
+          [2] = workspace.ZoneEntrances:FindFirstChild("11")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.UnlockZone:FireServer(unpack(args))
+
+        local args = {
+          [1] = 11,
+          [2] = workspace.ZoneEntrances:FindFirstChild("11")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.UnlockZone:FireServer(unpack(args))
+
+        local args = {
+          [1] = 12,
+          [2] = workspace.ZoneEntrances:FindFirstChild("11")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.UnlockZone:FireServer(unpack(args))
+
+        local args = {
+          [1] = 13,
+          [2] = workspace.ZoneEntrances:FindFirstChild("11")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.UnlockZone:FireServer(unpack(args))
+
+        local args = {
+          [1] = 14,
+          [2] = workspace.ZoneEntrances:FindFirstChild("11")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.UnlockZone:FireServer(unpack(args))
+
+        local args = {
+          [1] = 15,
+          [2] = workspace.ZoneEntrances:FindFirstChild("11")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.UnlockZone:FireServer(unpack(args))
+
+        local args = {
+          [1] = 16,
+          [2] = workspace.ZoneEntrances:FindFirstChild("11")
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.UnlockZone:FireServer(unpack(args))
+
+      end)
+    end
+  end
+end)
+
+local args = {
+  [1] = 5,
+  [2] = workspace.ZoneEntrances:FindFirstChild("5")
+}
+
+game:GetService("ReplicatedStorage").Remotes.UnlockZone:FireServer(unpack(args))
+
+
 -----
 
 _G.FruitEgg = false
@@ -152,23 +295,149 @@ game:GetService("ReplicatedStorage").Remotes.Egg:FireServer(unpack(args))
   end
 end)
 
-_G.Egg10M = false
-tgls1:Toggle("Egg10M",false, function(bool)
-  _G.Egg10M = bool
+tgls1:Seperator()
+
+_G.EggZONE12 = false
+tgls1:Toggle("EggZONE12",false, function(bool)
+  _G.EggZONE12 = bool
 end)
 spawn(function()
   while wait(0.5) do
-    if _G.Egg10M then
+    if _G.EggZONE12 then
+      pcall(function() 
+          
+
+local args = {
+  [1] = "CrystalEgg",
+  [2] = "HatchBtn"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Egg:FireServer(unpack(args))
+
+
+
+
+
+
+       
+          
+      end)
+    end
+  end
+end)
+
+
+tgls1:Seperator()
+
+_G.EggZONE13 = false
+tgls1:Toggle("EggZONE13",false, function(bool)
+  _G.EggZONE13 = bool
+end)
+spawn(function()
+  while wait(0.5) do
+    if _G.EggZONE13 then
+      pcall(function() 
+          
+
+local args = {
+  [1] = "AncientEgg",
+  [2] = "HatchBtn"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Egg:FireServer(unpack(args))
+
+
+
+
+
+       
+          
+      end)
+    end
+  end
+end)
+
+tgls1:Seperator()
+
+_G.EggZONE14 = false
+tgls1:Toggle("EggZONE14",false, function(bool)
+  _G.EggZONE14 = bool
+end)
+spawn(function()
+  while wait(0.5) do
+    if _G.EggZONE14 then
       pcall(function() 
           
 
 
 local args = {
-    [1] = "MagmaEgg",
-    [2] = "HatchBtn"
+  [1] = "MushroomEgg",
+  [2] = "HatchBtn"
 }
 
 game:GetService("ReplicatedStorage").Remotes.Egg:FireServer(unpack(args))
+
+
+
+
+       
+          
+      end)
+    end
+  end
+end)
+
+tgls:Seperator()
+
+_G.EggZONE15 = false
+tgls1:Toggle("EggZONE15",false, function(bool)
+  _G.EggZONE15 = bool
+end)
+spawn(function()
+  while wait(0.5) do
+    if _G.EggZONE15 then
+      pcall(function() 
+          
+
+
+local args = {
+  [1] = "VolcanoEgg",
+  [2] = "HatchBtn"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Egg:FireServer(unpack(args))
+
+
+
+       
+          
+      end)
+    end
+  end
+end)
+
+
+
+tgls1:Seperator()
+
+
+_G.EggZONE16 = true
+tgls1:Toggle("EggZONE16",true, function(bool)
+  _G.EggZONE16 = bool
+end)
+spawn(function()
+  while wait(0.5) do
+    if _G.EggZONE16 then
+      pcall(function() 
+          
+
+
+        local args = {
+          [1] = "MetalicEgg",
+          [2] = "HatchBtn"
+        }
+        
+        game:GetService("ReplicatedStorage").Remotes.Egg:FireServer(unpack(args))
 
 
 
@@ -406,8 +675,8 @@ end
   end
 end) 
 
-_G.BOSS10 = true
-tgls2:Toggle("BOSS10 ",true, function(bool)
+_G.BOSS10 = false
+tgls2:Toggle("BOSS10 ",false, function(bool)
   _G.BOSS10 = bool
 end)
     
@@ -432,6 +701,300 @@ end
 end) 
 
 
+
+
+----
+
+tgls2:Button("ZONE11", function()
+    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3391.25927734375, 23.2437744140625, -137.75489807128906)    
+      
+  
+end)
+
+tgls2:Seperator()
+
+_G.PoneglyphBOSS12 = false
+tgls2:Toggle("PoneglyphBOSS12 ",false, function(bool)
+  _G.PoneglyphBOSS12 = bool
+end)
+    
+spawn(function()
+  while wait(5) do
+    if _G.PoneglyphBOSS12 then
+      pcall(function() 
+          
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-178.0515594482422, 10.222049713134766, -6624.64208984375)
+if (CFrame.new(-178.0515594482422, 10.222049713134766, -6624.64208984375).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position) >= 5 then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-178.0515594482422, 10.222049713134766, -6624.64208984375)
+end
+
+
+          wait(10)
+          
+          
+      end)
+    end
+  end
+end) 
+
+
+tgls2:Seperator()
+
+_G.PoneglyphBOSS13 = false
+tgls2:Toggle("PoneglyphBOSS13 ",false, function(bool)
+  _G.PoneglyphBOSS13 = bool
+end)
+    
+spawn(function()
+  while wait(5) do
+    if _G.PoneglyphBOSS13 then
+      pcall(function() 
+          
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-475.409912109375, 18.663297653198242, -6623.6259765625)
+if (CFrame.new(-475.409912109375, 18.663297653198242, -6623.6259765625).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position) >= 5 then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-475.409912109375, 18.663297653198242, -6623.6259765625)
+end
+
+
+          wait(10)
+          
+          
+      end)
+    end
+  end
+end) 
+
+
+tgls2:Seperator()
+
+_G.PoneglyphBOSS14 = false
+tgls2:Toggle("PoneglyphBOSS14 ",false, function(bool)
+  _G.PoneglyphBOSS14 = bool
+end)
+    
+spawn(function()
+  while wait(5) do
+    if _G.PoneglyphBOSS14 then
+      pcall(function() 
+          
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-778.7122802734375, 10.221704483032227, -6565.5048828125)
+if (CFrame.new(-778.7122802734375, 10.221704483032227, -6565.5048828125).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position) >= 5 then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-778.7122802734375, 10.221704483032227, -6565.5048828125)
+end
+
+
+          wait(10)
+          
+          
+      end)
+    end
+  end
+end) 
+
+
+tgls2:Seperator()
+
+
+_G.PoneglyphBOSS15 = false
+tgls2:Toggle("PoneglyphBOSS15 ",false, function(bool)
+  _G.PoneglyphBOSS15 = bool
+end)
+    
+spawn(function()
+  while wait(5) do
+    if _G.PoneglyphBOSS15 then
+      pcall(function() 
+          
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1165.843505859375, 10.413412094116211, -6579.56005859375)
+if (CFrame.new(-1165.843505859375, 10.413412094116211, -6579.56005859375).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position) >= 5 then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1165.843505859375, 10.413412094116211, -6579.56005859375)
+end
+
+
+          wait(10)
+          
+          
+      end)
+    end
+  end
+end) 
+
+
+tgls2:Seperator()
+
+
+_G.PoneglyphBOSS16 = true
+tgls2:Toggle("PoneglyphBOSS16 ",true, function(bool)
+  _G.PoneglyphBOSS16 = bool
+end)
+    
+spawn(function()
+  while wait(5) do
+    if _G.PoneglyphBOSS16 then
+      pcall(function() 
+          
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1430.378662109375, 10.41330623626709, -6727.16943359375)
+if (CFrame.new(-1430.378662109375, 10.41330623626709, -6727.16943359375).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position) >= 5 then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1430.378662109375, 10.41330623626709, -6727.16943359375)
+end
+
+
+          wait(10)
+          
+          
+      end)
+    end
+  end
+end) 
+--------------------------------------------------------------
+
+
+tgls3:Seperator()
+
+tgls3:Button("ZONE1", function()
+    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-51.78556442260742, 8.99802303314209, -130.9253387451172)    
+      
+  
+end)
+
+tgls3:Seperator()
+tgls3:Button("ZONE2", function()
+    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(37.39582824707031, 6.424800395965576, -6616.2900390625)    
+      
+  
+end)
+
+tgls3:Seperator()
+tgls3:Button("ZONE3", function()
+    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-470.15972900390625, 13.99802303314209, -139.75)    
+      
+  
+end)
+
+tgls3:Seperator()
+tgls3:Button("ZONE4", function()
+    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-470.15972900390625, 13.99802303314209, -139.75)    
+      
+  
+end)
+
+tgls3:Seperator()
+tgls3:Button("ZONE5", function()
+    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-470.15972900390625, 13.99802303314209, -139.75)    
+      
+  
+end)
+
+tgls3:Seperator()
+tgls3:Button("ZONE6", function()
+    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-470.15972900390625, 13.99802303314209, -139.75)    
+      
+  
+end)
+
+tgls3:Seperator()
+tgls3:Button("ZONE7", function()
+    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-470.15972900390625, 13.99802303314209, -139.75)    
+      
+  
+end)
+
+tgls3:Seperator()
+tgls3:Button("ZONE8", function()
+    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-470.15972900390625, 13.99802303314209, -139.75)    
+      
+  
+end)
+
+tgls3:Seperator()
+tgls3:Button("ZONE9", function()
+    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-470.15972900390625, 13.99802303314209, -139.75)    
+      
+  
+end)
+
+tgls3:Seperator()
+tgls3:Button("ZONE10", function()
+    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-470.15972900390625, 13.99802303314209, -139.75)    
+      
+  
+end)
+
+tgls3:Seperator()
+tgls3:Button("ZONE11", function()
+    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3391.25927734375, 23.2437744140625, -137.75489807128906)    
+      
+  
+end)
+
+tgls3:Seperator()
+tgls3:Button("Word2", function()
+    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(37.39582824707031, 6.424800395965576, -6616.2900390625)    
+      
+  
+end)
+
+tgls3:Seperator()
+tgls3:Button("ZONE12", function()
+    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(37.39582824707031, 6.424800395965576, -6616.2900390625)    
+      
+  
+end)
+
+tgls3:Seperator()
+tgls3:Button("ZONE13", function()
+    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(37.39582824707031, 6.424800395965576, -6616.2900390625)    
+      
+  
+end)
+
+tgls3:Seperator()
+tgls3:Button("ZONE14", function()
+    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(37.39582824707031, 6.424800395965576, -6616.2900390625)    
+      
+  
+end)
+
+tgls3:Seperator()
+tgls3:Button("ZONE15", function()
+    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(37.39582824707031, 6.424800395965576, -6616.2900390625)    
+      
+  
+end)
+
+tgls3:Seperator()
+
+tgls3:Button("ZONE16", function()
+    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(37.39582824707031, 6.424800395965576, -6616.2900390625)    
+      
+  
+end)
+
+tgls3:Seperator()
 ----
 end
   
+

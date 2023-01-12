@@ -585,9 +585,9 @@ spawn(function()
       pcall(function() 
           
 
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2275.870361328125, 13.998022079467773, -134.99856567382812)
-if (CFrame.new(-2275.870361328125, 13.998022079467773, -134.99856567382812).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position) >= 5 then
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2275.870361328125, 13.998022079467773, -134.99856567382812)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2270.908447265625, 13.998022079467773, 5672.89208984375)
+if (CFrame.new(-2270.908447265625, 13.998022079467773, 5672.89208984375).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position) >= 5 then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2270.908447265625, 13.998022079467773, 5672.89208984375)
 end
 
 
@@ -610,9 +610,9 @@ spawn(function()
       pcall(function() 
           
 
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2488.9755859375, 14.008024215698242, -205.35731506347656)
-if (CFrame.new(-2488.9755859375, 14.008024215698242, -205.35731506347656).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position) >= 5 then
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2488.9755859375, 14.008024215698242, -205.35731506347656)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2487.52197265625, 14.008025169372559, 5605.740234375)
+if (CFrame.new(-2487.52197265625, 14.008025169372559, 5605.740234375).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position) >= 5 then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2487.52197265625, 14.008025169372559, 5605.740234375)
 end
 
 
@@ -636,9 +636,9 @@ spawn(function()
       pcall(function() 
           
 
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2714.853515625, 14.357771873474121, -134.6840057373047)
-if (CFrame.new(-2714.853515625, 14.357771873474121, -134.6840057373047).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position) >= 5 then
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2714.853515625, 14.357771873474121, -134.6840057373047)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2715.81103515625, 14.357771873474121, 5669.9423828125)
+if (CFrame.new(-2715.81103515625, 14.357771873474121, 5669.9423828125).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position) >= 5 then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2715.81103515625, 14.357771873474121, 5669.9423828125)
 end
 
 
@@ -661,9 +661,9 @@ spawn(function()
       pcall(function() 
           
 
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2882.8603515625, 13.998023986816406, -123.23009490966797)
-if (CFrame.new(-2882.8603515625, 13.998023986816406, -123.23009490966797).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position) >= 5 then
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2882.8603515625, 13.998023986816406, -123.23009490966797)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2881.7724609375, 13.998023986816406, 5683.193359375)
+if (CFrame.new(-2881.7724609375, 13.998023986816406, 5683.193359375).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position) >= 5 then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2881.7724609375, 13.998023986816406, 5683.193359375)
 end
 
 
@@ -686,9 +686,9 @@ spawn(function()
       pcall(function() 
           
 
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3096.33740234375, 13.99802303314209, -139.51014709472656)
-if (CFrame.new(-3096.33740234375, 13.99802303314209, -139.51014709472656).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position) >= 5 then
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3096.33740234375, 13.99802303314209, -139.51014709472656)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3090.393798828125, 13.998025894165039, 5665.49853515625)
+if (CFrame.new(-3090.393798828125, 13.998025894165039, 5665.49853515625).Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position) >= 5 then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3090.393798828125, 13.998025894165039, 5665.49853515625)
 end
 
 
@@ -707,7 +707,7 @@ end)
 
 tgls2:Button("ZONE11", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3391.25927734375, 23.2437744140625, -137.75489807128906)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3413.947998046875, 22.24155616760254, 5670.10693359375)    
       
   
 end)
@@ -828,8 +828,8 @@ end)
 tgls2:Seperator()
 
 
-_G.PoneglyphBOSS16 = true
-tgls2:Toggle("PoneglyphBOSS16 ",true, function(bool)
+_G.PoneglyphBOSS16 = false
+tgls2:Toggle("PoneglyphBOSS16 ",false, function(bool)
   _G.PoneglyphBOSS16 = bool
 end)
     
@@ -899,7 +899,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("ZONE6", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2189.125, 13.99802303314209, -139.75)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2183.94091796875, 13.99802303314209, 5668.009765625)    
       
   
 end)
@@ -907,7 +907,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("ZONE7", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2398.625, 14.008025169372559, -139.75)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2396.781494140625, 14.008025169372559, 5668.5478515625)    
       
   
 end)
@@ -915,7 +915,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("ZONE8", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2608.125, 14.024022102355957, -139.75)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2606.119873046875, 14.008024215698242, 5668.00830078125)    
       
   
 end)
@@ -923,7 +923,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("ZONE9", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2818.125, 13.99802303314209, -139.75)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2814.9267578125, 13.998024940490723, 5667.51318359375)    
       
   
 end)
@@ -931,7 +931,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("ZONE10", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3027.875, 13.99802303314209, -139.75)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3023.875732421875, 13.99802303314209, 5667.5185546875)    
       
   
 end)
@@ -939,7 +939,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("ZONE11", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3391.25927734375, 23.2437744140625, -137.75489807128906)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3234.533447265625, 13.99802303314209, 5669.9052734375)    
       
   
 end)
